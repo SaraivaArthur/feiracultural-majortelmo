@@ -1,0 +1,251 @@
+HTML:
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Petróleo e Agronomia no Espírito Santo</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="site.css" />
+  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/d/df/Bandeira_do_Esp%C3%ADrito_Santo_%281909%29.png" type="image/png" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <a href="index.html" class="bg-green-700 text-white px-4 py-2 rounded hover:bg-green-800 transition">
+    Minas Gerais
+  </a>
+  
+  <style>
+    body, h1, h2, h3, h4, p, nav a {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="bg-gray-50">
+  <header class="backdrop-blur-md bg-white/30 shadow-lg sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between py-4 relative">
+        <div class="absolute left-1/2 transform -translate-x-1/2 flex items-center space-x-3">
+          <div class="w-56 h-10 bg-green-900 rounded-full flex items-center justify-center">
+            <span class="text-white font-bold text-base leading-none pt-[1px]" style="font-size: 20px;">MAJOR TELMO</span>
+          </div>
+          <h1 class="text-2xl font-bold text-green-800">Espírito Tech</h1>
+        </div>
+
+        <nav class="hidden md:flex space-x-8">
+          <a href="#petroleo" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Petróleo</a>
+          <a href="#agronomia" class="text-gray-700 hover:text-green-600 font-medium transition-colors">Agronomia</a>
+          <a href="#economia" class="text-gray-700 hover:text-red-600 font-medium transition-colors">Economia</a>
+        </nav>
+        <button class="md:hidden p-2 rounded-md text-gray-700 hover:bg-gray-100" aria-label="Menu">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="relative text-white py-20 overflow-hidden rounded-md">
+    <img src="https://blog.123milhas.com/wp-content/uploads/2022/06/estado-espirito-santo-vila-velha-cidades-espirito-santo-conexao123.jpg" class="absolute inset-0 w-full h-full object-cover opacity-50" />
+    <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-5xl font-bold mb-6">Petróleo e Agronomia no Espírito Santo</h2>
+      <p class="text-xl mb-8 max-w-3xl mx-auto">
+        Descubra como o Espírito Santo se tornou referência nacional na exploração
+        petrolífera offshore e na produção agrícola sustentável
+      </p>
+
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <button onclick="scrollToSection('petroleo')" class="bg-white text-green-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors">
+          Explorar Petróleo
+        </button>
+        <button onclick="scrollToSection('agronomia')" class="bg-green-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-green-700 transition-colors">
+          Descobrir Agronomia
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <br />
+  <p class="text-xl mb-8 max-w-3xl mx-auto">
+    A tecnologia tem um papel muito importante no desenvolvimento econômico e social do Espírito Santo. Diversos setores, como o petróleo, a agricultura e a inovação, já utilizam recursos tecnológicos para aumentar a produção, reduzir custos e melhorar a qualidade dos produtos e serviços.
+  </p>
+
+  <center><h1 id="petroleo" style="font-size: 50px;">Explorar petróleo</h1></center>
+  <center><img src="https://www.es.gov.br/Media/PortalES/Noticias/WhatsApp%20Image%202023-11-22%20at%2014.14.07.jpeg" /></center>
+
+  <br />
+  <p class="text-x1 mb-8 max-w-3xl mx-auto">
+    As plataformas de petróleo contam com mapas digitais em 3D, que ajudam a planejar manutenções e reduzem o tempo de reparos de dias para poucas horas.
+    O gêmeo digital é outra inovação: uma cópia virtual da plataforma que permite acompanhar a produção em tempo real e prever problemas antes que eles aconteçam.
+    Além disso, empresas utilizam robôs e câmeras subaquáticas para inspecionar estruturas em alto-mar, o que garante mais segurança aos trabalhadores e maior eficiência.
+    O uso da inteligência artificial também ajuda a analisar dados e encontrar novos pontos de exploração, aumentando a produção e gerando novos empregos.
+  </p>
+
+  <center><h1 id="agronomia" style="font-size: 50px;">Descobrir agronomia</h1></center>
+  <center><img src="https://www.es.gov.br/Media/PortalES/_Profiles/c4d8c6e6/d8d1f292/WhatsApp%20Image%202023-07-25%20at%2016.47.29.jpeg?v=638259832826279500" style="width: 600px; height: auto;" /></center>
+
+  <br />
+  <p class="text-x1 mb-8 max-w-3xl mx-auto">
+    A agricultura é outro setor fundamental para a economia capixaba, com destaque para o café, o eucalipto e a pimenta-do-reino. A tecnologia está presente em várias etapas desse processo. No cultivo do café, os agricultores utilizam técnicas modernas de poda, adubação e variedades resistentes, o que aumenta a produtividade mesmo em anos de clima desfavorável.
+    Viveiros passaram a adotar os chamados paper pots, pequenos recipientes biodegradáveis que reduzem o gasto de água e evitam a perda de mudas. Além disso, o Incaper (Instituto Capixaba de Pesquisa, Assistência Técnica e Extensão Rural) oferece apoio técnico e compartilha novas tecnologias, garantindo que pequenos e grandes produtores tenham acesso a informações que ajudam a produzir mais e melhor.
+  </p>
+
+  <center><h1 style="font-size: 35px;">Diversificação da Produção</h1></center>
+
+  <br />
+  <p class="text-x1 mb-8 max-w-3xl mx-auto">
+    Além do café, do eucalipto e da pimenta-do-reino, outros cultivos também vêm se modernizando com o apoio da tecnologia. Em Santa Teresa, por exemplo, o uso de técnicas modernas de irrigação e cultivo tem fortalecido a vitivinicultura, com destaque para a produção de vinhos no Vale do Tabocas.
+    Em 2022, o município também produziu o primeiro azeite local, a partir do cultivo de oliveiras, mostrando que o estado tem capacidade de inovar e diversificar sua produção agrícola.
+  </p>
+
+  <center><h1 id="economia" style="font-size: 35px;">Inovação e Startups</h1></center>
+  <center><img src="https://static.portaldaindustria.com.br/portaldaindustria/noticias/media/imagem_plugin/shutterstock_rLcCBI9.jpg" style="width: 600px; height: auto;" /></center>
+
+  <br />
+  <p class="text-x1 mb-8 max-w-3xl mx-auto">
+    O Espírito Santo tem investido na criação de um ambiente voltado para a inovação e para as novas tecnologias. O Fundo Soberano do Estado já direcionou milhões de reais para apoiar startups de tecnologia, com a meta de incentivar até 50 empresas nos próximos anos.
+    Outro destaque é o Centro Inovanorte, localizado no norte do estado, que funciona como um espaço para pesquisa, capacitação e desenvolvimento de tecnologias voltadas para o setor de petróleo e para o agronegócio. Essas iniciativas atraem investimentos e aumentam as oportunidades de emprego e renda.
+  </p>
+
+  <center><h1 style="font-size: 35px;">Logística e Infraestrutura</h1></center>
+
+  <br />
+  <p class="text-x1 mb-8 max-w-3xl mx-auto">
+    Um ponto estratégico para o desenvolvimento capixaba é o Porto Central, localizado em Presidente Kennedy. Esse terminal portuário está sendo desenvolvido com infraestrutura moderna para atender ao setor de petróleo, ao agronegócio e também ao futuro mercado de energia renovável, como o hidrogênio verde. Essa estrutura deve colocar o Espírito Santo em uma posição estratégica no comércio internacional.
+  </p>
+
+  <center><h1 style="font-size: 35px;">Conclusão</h1></center>
+
+  <br />
+  <p class="text-x1 mb-8 max-w-3xl mx-auto">
+    A tecnologia influencia diretamente no crescimento do Espírito Santo. Seja no petróleo, na agricultura ou na inovação, ela aumenta a produtividade, reduz custos, melhora a qualidade dos produtos e gera empregos. O estado mostra que, ao unir tradição e modernidade, consegue se destacar em setores importantes para a economia do Brasil e do mundo.
+  </p>
+
+  <footer class="bg-green-900 text-white pt-12 pb-6 mt-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-10">
+      <div>
+        <h3 class="text-2xl font-bold tracking-wide">MAJOR TELMO</h3>
+        <p class="text-sm mt-3 text-gray-200">
+          Projeto desenvolvido pela turma 2B do Ensino Técnico. Conteúdo sobre tecnologia, agronomia e petróleo no Espírito Santo.
+        </p>
+      </div>
+      <div>
+        <h4 class="text-lg font-semibold mb-3 border-b border-brown-700 pb-1">Navegação</h4>
+        <ul class="space-y-2 text-sm">
+          <li><a href="#petroleo" class="text-white hover:text-yellow-400 transition">🌊 Petróleo</a></li>
+          <li><a href="#agronomia" class="text-white hover:text-yellow-400 transition">🌱 Agronomia</a></li>
+          <li><a href="#economia" class="text-white hover:text-yellow-400 transition">🚀 Economia</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-lg font-semibold mb-3 border-b border-brown-700 pb-1">Equipe</h4>
+        <ul class="space-y-2 text-sm">
+          <li><a href="https://www.linkedin.com/in/saraivaarthur" target="_blank" class="text-white hover:text-yellow-400 transition">🔗 Arthur Saraiva</a></li>
+          <li><a href="https://www.linkedin.com/in/bruno-lima-20b099325" target="_blank" class="text-white hover:text-yellow-400 transition">🔗 Bruno Lima</a></li>
+          <li><a href="https://www.linkedin.com/in/pedro-santos-2ba23236b" target="_blank" class="text-white hover:text-yellow-400 transition">🔗 Pedro Henrique</a></li>
+          <li><a href="https://www.linkedin.com/in/lucas-vasconcelos-8834b8363" target="_blank" class="text-white hover:text-yellow-400 transition">🔗 Lucas Vasconcelos</a></li>
+          <li><a href="https://www.linkedin.com/in/julio-cezar-b594a0383" target="_blank" class="text-white hover:text-yellow-400 transition">🔗 Julio Cezar</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="border-t border-green-800 mt-10 pt-4 text-center text-sm text-gray-300">
+      <p>&copy; 2025 Major Telmo. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+  
+  
+
+  <script>
+    function scrollToSection(id) {
+      const element = document.getElementById(id);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  </script>
+  <script>
+    feather.replace();
+  </script>
+  
+</body>
+</html>
+
+CSS:
+
+.hero-gradient {
+  background: linear-gradient(140deg, #267013 20%, #a19f06 100%);
+}
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+.section-bg {
+  background: linear-gradient(45deg, #00500c 0%, #00bd65 100%);
+}
+
+.text {
+  display: inline-block;
+  position: relative;
+}
+
+.text p {
+  position: absolute;
+  top: 200px;
+  right: 20px;
+  font-size: 40px;
+  color: white;
+}
+
+.titulo {
+  font-size: 30px;
+  font-weight: bold;
+  color: #0f2c46;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+}
+
+ul {
+  text-align: justify;
+  list-style-type: disc;
+  list-style-position: outside;
+  padding-left: 30px;
+  margin-bottom: 20px;
+  color: rgb(0, 0, 0);
+}
+
+li {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+img {
+  font-size: medium;
+  margin: auto;
+  width: 500px;
+  height:300px;
+}
+.subtitulo_fundo{
+  background-color: antiquewhite;
+  width: 500px;
+  height: 300px;
+
+
+}
+
+.JS:
+
+function scrollToSection(id) {
+  const element = document.getElementById(id);
+  if (element) {
+    element.scrollIntoView({ behavior: 'smooth' });
+  }
+}
+
+<script src="https://unpkg.com/feather-icons"></script>
